@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Bootstrap</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Form Bootstrap</h2>
+        <form action="/submit" method="POST">
+            <div class="form-group">
+                <label for="first_name">Nama Depan:</label>
+                <input type="text" class="form-control" id="first_name" name="first_name" placeholder="Masukkan nama depan">
+            </div>
+
+            <div class="form-group">
+                <label for="last_name">Nama Belakang:</label>
+                <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Masukkan nama belakang">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Masukkan email">
+            </div>
+
+            <div class="form-group">
+                <label for="username">Nama Pengguna:</label>
+                <input type="text" class="form-control" id="username" name="username" placeholder="Masukkan nama pengguna">
+            </div>
+
+            <div class="form-group">
+                <label for="address">Alamat:</label>
+                <input type="text" class="form-control" id="address" name="address" placeholder="Masukkan alamat pengguna">
+            </div>
+
+            <div class="form-group">
+                <label for="birth_date">Tanggal Lahir:</label>
+                <input type="date" class="form-control" id="birth_date" name="birth_date">
+            </div>
+
+            <div class="form-group">
+                <label for="birth_place">Tempat Lahir:</label>
+                <input type="text" class="form-control" id="birth_place" name="birth_place" placeholder="Masukkan tempat lahir">
+            </div>
+
+            <div class="form-group">
+                <label for="password">Kata Sandi:</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Masukkan kata sandi">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Kirim</button>
+        </form>
+    </div>
+    <br>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
